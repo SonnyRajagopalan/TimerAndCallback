@@ -9,3 +9,11 @@ The C/C++ code presented herein is my take on an implementation of a memory pool
 server that is used for signaling (e.g., SIP signaling or RADIUS signaling). The timer management
 that this code base presents is a min-heap based timer management with callbacks. The accuracy is
 platform dependent, of course. I will fill in those details as soon as I get some time...
+
+License:
+
+In short, this work is available via the BSD license. See LICENSE file for details.
+
+See http://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29
+
+The 3-clause license is used.
