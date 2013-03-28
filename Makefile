@@ -68,7 +68,7 @@ tar:
 	$(BASEDIR)/include/common/*.h  \
 	$(BASEDIR)/include/platform/*.h \
 	$(BASEDIR)/include/test/*.h \
-	$(BASEDIR)/common/*.cpp $(BASEDIR)/helpers/* \
+	$(BASEDIR)/common/*.cpp \
 	$(BASEDIR)/platform/*.cpp \
 	$(BASEDIR)/test/*.cpp \
 	$(BASEDIR)/common/Makefile \
