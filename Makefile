@@ -88,9 +88,3 @@ clean:
 	$(BASEDIR)/platform/*.*~ $(BASEDIR)/test/*.*~ \
 	$(BASEDIR)/include/common/*.h~ \
 	$(BASEDIR)/include/platform/*.h~  $(BASEDIR)/include//test/*.h~ || true
-
-tags:
-	$(BASEDIR)/genTags.sh
-
-backup: tar
-	cp diam-$(BUILDID).tgz /tahoma/diam/
